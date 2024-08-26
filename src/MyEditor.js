@@ -20,11 +20,11 @@ const MyEditor = () => {
         config={{
             toolbar: [
               'heading', '|',
-              'bold', 'italic', 'underline', 'strikethrough', '|',
+              'bold', 'italic',  '|',
               'link', 'blockQuote', '|',
-              'bulletedList', 'numberedList', 'todoList', '|',
+              'bulletedList', 'numberedList',
               'imageUpload', 'insertTable', '|',
-              'mediaEmbed', 'codeBlock', '|',
+              'mediaEmbed',  '|',
               'undo', 'redo'
             ],
             image: {
